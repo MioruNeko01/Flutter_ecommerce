@@ -17,6 +17,7 @@ class BigText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
+      maxLines: 1, //if more than 1 line then ellipsis
       overflow: overFlow,
       style: TextStyle(
         color: color,
