@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ecommerce/home/food_page_body.dart';
 import 'package:flutter_ecommerce/widgets/big_text.dart';
 import 'package:flutter_ecommerce/utils/colors.dart';
 import 'package:flutter_ecommerce/widgets/small_text.dart';
@@ -57,6 +58,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                 ],
               ),
             ),
+            FoodPageBody(),
           ],
         ),
       ),
