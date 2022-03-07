@@ -4,7 +4,6 @@ class Dimensions {
   //dynamic height and width of the screen
   static double screenHeight = Get.context!.height;
   static double screenWidth = Get.context!.width;
-
   //dynamic pageview container property
   static double pageView = screenHeight / 2.64;
   static double pageViewContainer = screenHeight / 3.84;
@@ -34,4 +33,8 @@ class Dimensions {
 
   //icon size
   static double iconSize24 = screenHeight / 35.17;
+
+  //list view size
+  static double listViewImgSize = screenWidth / 3.25;
+  static double listViewTextContSize = screenWidth / 3.9;
 }
