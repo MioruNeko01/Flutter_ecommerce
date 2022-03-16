@@ -39,13 +39,13 @@ class _ExpandableTextState extends State<ExpandableText> {
     return Container(
       child: secondHalf.isEmpty
           ? SmallText(
-              size: Dimensions.font20,
+              size: Dimensions.font16,
               color: AppColors.paraColor,
               text: firstHalf)
           : Column(
               children: [
                 SmallText(
-                  size: Dimensions.font20,
+                  size: Dimensions.font16,
                   color: AppColors.paraColor,
                   height: 1.8,
                   text: hiddenText
