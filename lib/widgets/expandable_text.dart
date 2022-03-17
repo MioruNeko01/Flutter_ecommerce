@@ -41,7 +41,8 @@ class _ExpandableTextState extends State<ExpandableText> {
           ? SmallText(
               size: Dimensions.font16,
               color: AppColors.paraColor,
-              text: firstHalf)
+              text: firstHalf,
+            )
           : Column(
               children: [
                 SmallText(
