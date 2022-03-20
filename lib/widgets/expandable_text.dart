@@ -64,6 +64,7 @@ class _ExpandableTextState extends State<ExpandableText> {
                       SmallText(
                         text: "Show more",
                         color: AppColors.mainColor,
+                        size: Dimensions.font16,
                       ),
                       Icon(
                         hiddenText
